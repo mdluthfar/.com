@@ -1,0 +1,63 @@
+/*
+for mobile and tabs
+*/
+.mobileBar {
+	display:none;
+}
+@media (max-width:768px){
+	
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.logo {
+    width: 50%;
+}
+
+.menu {
+    width: 100%;
+    background: #ddd;
+    transform: scaleY(0);
+    transform-origin: top;
+    position: absolute;
+    top: 207px;
+    right: 0px;
+    transition: .3s;
+}
+
+li {}
+
+ul.mainMenuItem li {
+    float: none;
+    position: unset;
+}
+
+ul.mainMenuItem {
+    float: left;
+}
+
+ul.mainMenuItem li a {
+    padding: 10px 30px;
+}	
+.mobileBar {
+    width: 50%;
+    float: right;
+    text-align: right;
+    margin-right: 50px;
+    font-size: 30px;
+    margin-top: -36px;
+	display:block;
+	
+}	
+.mobileBar span:hover{
+	cursor:pointer;
+}
+
+.showkoro{
+	
+	transform:scaleY(1);
+}
+}
+
+
