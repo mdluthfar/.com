@@ -20,7 +20,11 @@ document.querySelector("#expandNav").addEventListener("click",function(){
 	
 });
 
- 
+document.querySelector("#subssubmit").addEventListener("click",function(){
+
+		alert("Your subssubmited is completed");
+	
+}); 
  
  
 
